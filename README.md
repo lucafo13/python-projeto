@@ -35,11 +35,11 @@ No jogo, para capturar um pokémon, é preciso se encontrar com ele e entrar em 
  - **WASD** - Movimentação
  - **Space** - Arremeço de bola
  - **IJKL** - Movimentação de Pokémon
- - ***M** - Ataque
+ - **M** - Ataque
 
 # Funcionamento
 
-**Arquitetura: **
+**Arquitetura:**
 ```
 python-projeto/
 ├── main.py          
@@ -85,4 +85,11 @@ O projeto funciona com boa base em POO(Programação Orientada a Objetos) onde a
 # Alterações feitas em relação ao repositório original :
  <br> 
  O repositório que escolhemos é chamado de PokeGame, qual abordava de maneira simples o conceito do jogo, tendo artes e mecanicas simplificadas, para o projeto, alteramos toda a arte do jogo, adicionamos novos tipos de pokémon ( apenas tinham 'grass', 'water' e 'fire' mas adicionamos os tipos flying, ground e eletric, graças à analise feita do código ), além da mecânica de tipos, onde cada pokémon pode dar mais ou menos dano de acordo com o tipo de seu adversário (água > fogo > grama > água).
- 
+
+ # diferenças :
+ **original**
+ <img width="1176" height="998" alt="image" src="https://github.com/user-attachments/assets/4f47c341-f687-4c57-9270-0cadf918c242" />
+<br>
+
+**atual** : 
+<img width="1281" height="956" alt="image" src="https://github.com/user-attachments/assets/93c09440-90ce-4b05-be39-4023ef27db87" />
