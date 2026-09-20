@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="15">
+ <tileset firstgid="1" source="spritesheet_tiles.tsx"/>
+ <layer id="1" name="Ground" width="10" height="12">
+  <data encoding="csv">
+306,307,308,306,307,308,306,307,308,306,
+329,330,331,329,330,331,329,330,331,329,
+306,307,308,306,307,308,306,307,308,306,
+329,330,331,329,330,331,329,330,331,329,
+306,307,308,306,307,308,306,307,308,306,
+329,330,331,329,330,331,329,330,331,329,
+554,307,308,306,307,308,306,307,308,306,
+577,330,331,329,330,331,329,330,331,329,
+600,307,308,306,307,308,306,307,308,306,
+329,494,494,329,330,331,329,330,331,329,
+306,307,494,306,307,308,306,307,308,306,
+329,330,331,329,330,331,329,330,331,329
+</data>
+ </layer>
+ <layer id="2" name="trees" width="10" height="12">
+  <data encoding="csv">
+531,691,692,691,692,691,692,691,692,484,
+554,0,0,0,0,0,0,0,0,507,
+577,0,0,0,0,0,0,0,0,530,
+485,0,0,0,0,0,0,0,0,553,
+508,0,0,0,0,0,0,0,0,576,
+531,106,0,0,0,0,0,0,106,484,
+554,106,0,0,0,0,0,0,106,507,
+577,0,0,0,0,0,0,0,0,530,
+600,153,153,0,0,0,0,0,0,553,
+623,494,494,153,0,0,0,0,0,576,
+186,0,494,153,0,0,0,0,0,599,
+186,186,106,576,577,576,577,576,577,622
+</data>
+ </layer>
+ <objectgroup id="3" name="Obstacles">
+  <object id="1" name="wall" x="0" y="64" width="64" height="704"/>
+  <object id="4" name="wall" x="576" y="0" width="64" height="768"/>
+  <object id="5" name="wall" x="0" y="0" width="576" height="64"/>
+  <object id="6" name="wall" x="64" y="704" width="512" height="64"/>
+  <object id="7" name="wild_pokemon" x="304" y="144" width="32" height="32"/>
+  <object id="8" name="wall" x="512" y="320" width="64" height="128"/>
+  <object id="9" name="wall" x="64" y="320" width="64" height="128"/>
+  <object id="10" name="trained_pokemon" x="304" y="592" width="32" height="32"/>
+  <object id="11" name="p_wall" x="160" y="608" width="32" height="96"/>
+  <object id="12" name="p_wall" x="64" y="576" width="128" height="32"/>
+  <object id="14" name="standby_spot" x="112" y="640" width="16" height="16"/>
+ </objectgroup>
+</map>
