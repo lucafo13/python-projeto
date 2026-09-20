@@ -62,3 +62,12 @@ python-projeto/
 <br>
 
 O projeto funciona com boa base em POO(Programação Orientada a Objetos) onde atual classes, como por exemplo a classe de cada pokémon
+
+ <br>
+
+ **main.py** --> Mantém o jogo funcional, controlando o loop principal e também as batalhas, com por exemplo a classe game que faz desde o tamanho da janela até o carregamento de algumas imagens do mapa.
+ **sprites.py** -- >  É o arquivo que cuida das entidades presentes no jogo, seja o player ou os próprios pokémons e objetos, possui classes como a Player para o jogador e projectile que cuida das pookeballs e é herdada pelos  projéteis de ataque dos pokémons.
+ **settings.py** --> É o arquivo que guarda as configurações do jogo, como os tipos, velocidade, pokémons e etc. Estes valores são usados por diferentes áreas do código do jogo.
+ **tilemap.py** --> Arquivo que toma de conta do mapa e da câmera, sendo o responsável por ler os arquivos .tmx, que levam consigo os tileset presente no mapa.
+ **menu.py** -->  Se trata da barrinha lateral que traz informações como Pokémons capturados, seus tipos e hp, nela contém a classe Menu, que é responsável pelos métodos que criam a barra e definem suas características.
+ **fonts.py** --> 
