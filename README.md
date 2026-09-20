@@ -6,7 +6,7 @@
 
 # Jogo: Pókemon Pocket
 **Repositório original: https://github.com/jlaframboise/PokeGame.git**
-<br / >
+<br>
 <img width="1265" height="945" alt="image" src="https://github.com/user-attachments/assets/92f4c60e-9582-4462-98b4-9d30b7b386a0" />
 
 <br />
@@ -38,3 +38,27 @@ No jogo, para capturar um pokémon, é preciso se encontrar com ele e entrar em 
  - ***M** - Ataque
 
 # Funcionamento
+
+**Arquitetura: **
+```
+python-projeto/
+├── main.py          
+├── sprites.py         
+├── settings.py      
+├── tilemap.py      
+├── menu.py           
+├── fonts.py         
+├── outro.py          
+├── engenhoca.py       
+├── maps/
+│   ├── map1.tmx       
+│   ├── b_map.tmx      
+│   └── spritesheet_tiles.tsx
+├── img/               
+├── PlanningWeek0-4.docx
+├── README.md
+└── .gitignore
+```
+<br>
+
+O projeto funciona com boa base em POO(Programação Orientada a Objetos) onde atual classes, como por exemplo a classe de cada pokémon
