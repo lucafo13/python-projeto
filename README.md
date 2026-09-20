@@ -66,8 +66,23 @@ O projeto funciona com boa base em POO(Programação Orientada a Objetos) onde a
  <br>
 
  **main.py** --> Mantém o jogo funcional, controlando o loop principal e também as batalhas, com por exemplo a classe game que faz desde o tamanho da janela até o carregamento de algumas imagens do mapa.
+  <br>
  **sprites.py** -- >  É o arquivo que cuida das entidades presentes no jogo, seja o player ou os próprios pokémons e objetos, possui classes como a Player para o jogador e projectile que cuida das pookeballs e é herdada pelos  projéteis de ataque dos pokémons.
+  <br>
  **settings.py** --> É o arquivo que guarda as configurações do jogo, como os tipos, velocidade, pokémons e etc. Estes valores são usados por diferentes áreas do código do jogo.
+  <br>
  **tilemap.py** --> Arquivo que toma de conta do mapa e da câmera, sendo o responsável por ler os arquivos .tmx, que levam consigo os tileset presente no mapa.
+  <br>
  **menu.py** -->  Se trata da barrinha lateral que traz informações como Pokémons capturados, seus tipos e hp, nela contém a classe Menu, que é responsável pelos métodos que criam a barra e definem suas características.
- **fonts.py** --> 
+  <br>
+ **fonts.py** --> Esse arquivo é diferente dos outros pelo fato de não conter classes, é movido por funções para renderizar os textos que aparecem no jogo, fazendo isso de uma só vez com, por exemplo, a função def drawn_text2()
+  <br>
+ **outro.py** -->  Código responsável para fazer a cena final do jogo, que acontece após coletar todos os 8 pokémons do jogo, nela tem uma classe chamada Ending, que reaproveitadas imagens carregadas da outra classe do arquivo main.py chamada Game.
+ <br> <br>
+***Sobre os Tileset** : Para o mapa, são usados tileset presentes nos arquivos .tmx guiados pelo arquivo .tsx presente na mesma pasta, para organiza-los da maneira desejada, foi-se usado o aplicativo Tiled, que foi capaz de ler os arquivos e corrigir erros causados pelos novos tiles que colocamos no projeto
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/4717fe7e-fa96-4f88-b133-2104c764654b" />
+
+# Alterações feitas em relação ao repositório original :
+ <br> 
+ O repositório que escolhemos é chamado de PokeGame, qual abordava de maneira simples o conceito do jogo, tendo artes e mecanicas simplificadas, para o projeto, alteramos toda a arte do jogo, adicionamos novos tipos de pokémon ( apenas tinham 'grass', 'water' e 'fire' mas adicionamos os tipos flying, ground e eletric, graças à analise feita do código ), além da mecânica de tipos, onde cada pokémon pode dar mais ou menos dano de acordo com o tipo de seu adversário (água > fogo > grama > água).
+ 
