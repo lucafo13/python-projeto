@@ -29,7 +29,8 @@ No jogo, para capturar um pokémon, é preciso se encontrar com ele e entrar em 
 <img width="1177" height="957" alt="image" src="https://github.com/user-attachments/assets/cd6ca802-7bab-4fa5-89c7-82738732ca6f" />
 
 <br>
-
+# Objetivo
+O sistema tem como o objetivo ser um jogo simples baseado na franquia de Pokémon da game freak e Nintendo, com objetivos dentro do jogo simples como capturar e batalhar com outras criaturas dentro do mapa.
 # Controles
 
  - **WASD** - Movimentação
