@@ -65,7 +65,7 @@ python-projeto/
 ```
 <br>
 
-**BIbliotecas: ** Pygame, pytmx
+**BIbliotecas:** Pygame, pytmx
 <br>
 O projeto funciona com boa base em POO(Programação Orientada a Objetos) onde atual classes, como por exemplo a classe de cada pokémon
 
